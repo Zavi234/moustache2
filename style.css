@@ -1,0 +1,12 @@
+canvas
+{
+    border: 5px solid springgreen;
+    animation-name: first_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first_animation {
+    from{box-shadow: 10px 10px 30px red;}
+    to{box-shadow: 10px 10px 30px yellow;}
+}
